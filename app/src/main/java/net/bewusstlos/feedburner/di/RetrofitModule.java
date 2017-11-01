@@ -1,14 +1,9 @@
 package net.bewusstlos.feedburner.di;
 
-import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-
-import net.bewusstlos.feedburner.api.FeedBurnerAPI;
-
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import io.reactivex.annotations.NonNull;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory;

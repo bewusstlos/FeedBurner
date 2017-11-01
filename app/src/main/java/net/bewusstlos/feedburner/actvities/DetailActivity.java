@@ -1,12 +1,10 @@
 package net.bewusstlos.feedburner.actvities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
-import net.bewusstlos.feedburner.R;
 
 public class DetailActivity extends AppCompatActivity {
 
