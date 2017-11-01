@@ -1,6 +1,6 @@
 package net.bewusstlos.feedburner.di;
 
-import net.bewusstlos.feedburner.MainActivity;
+import net.bewusstlos.feedburner.actvities.MainActivity;
 
 import javax.inject.Singleton;
 

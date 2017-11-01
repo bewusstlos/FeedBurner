@@ -1,4 +1,4 @@
-package net.bewusstlos.feedburner.models;
+package net.bewusstlos.feedburner.actvities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

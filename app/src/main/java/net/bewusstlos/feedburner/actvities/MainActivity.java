@@ -1,23 +1,17 @@
-package net.bewusstlos.feedburner;
+package net.bewusstlos.feedburner.actvities;
 
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import net.bewusstlos.feedburner.FeedBurner;
+import net.bewusstlos.feedburner.R;
 import net.bewusstlos.feedburner.api.FeedBurnerAPI;
 import net.bewusstlos.feedburner.common.FeedAdapter;
-import net.bewusstlos.feedburner.di.FeedBurnerComponent;
-import net.bewusstlos.feedburner.di.RetrofitModule;
-import net.bewusstlos.feedburner.models.DetailActivity;
 import net.bewusstlos.feedburner.models.Entry;
 import net.bewusstlos.feedburner.models.Feed;
 
