@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FeedBurner</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+</resources>
