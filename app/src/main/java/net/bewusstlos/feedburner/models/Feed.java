@@ -7,6 +7,7 @@ import java.util.List;
 
 /**
  * Created by bewusstlos on 11/1/2017.
+ * Just container for list of entries/posts/articles
  */
 @Root(strict = false)
 public class Feed {

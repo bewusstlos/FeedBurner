@@ -3,8 +3,8 @@ package net.bewusstlos.feedburner.actvities;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -58,8 +58,11 @@ public class MainActivity extends ListActivity {
         loadFeed();
     }
 
+    /**
+     * method to load getFeed and populate data to listView
+     */
     private void loadFeed() {
-        feedCall.feed().enqueue(new Callback<Feed>() {
+        feedCall.getFeed().enqueue(new Callback<Feed>() {
             @Override
             public void onResponse(Call<Feed> call, Response<Feed> response) {
                 Feed feed = response.body();
